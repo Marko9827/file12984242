@@ -4,6 +4,25 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+document.onkeypress = function(event) {
+    event = (event || window.event);
+    if (event.keyCode == 123) {
+        return false;
+    }
+}
+document.onmousedown = function(event) {
+    event = (event || window.event);
+    if (event.keyCode == 123) {
+        return false;
+    }
+}
+document.onkeydown = function(event) {
+    event = (event || window.event);
+    if (event.keyCode == 123) {
+        return false;
+    }
+}
+
 (function($) {
 
 	skel.breakpoints({
